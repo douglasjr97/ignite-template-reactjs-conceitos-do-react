@@ -126,6 +126,6 @@ describe('App Page', () => {
     expect(addedFirstTask).toHaveClass('completed');
 
     expect(addedSecondTask).toBeInTheDocument();
-    // expect(addedSecondTask).not.toHaveClass('completed');
+    expect(addedSecondTask).not.toHaveClass('completed');
   })
 })
